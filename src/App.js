@@ -61,7 +61,7 @@ const PokemonList = (props) => {
 
       <div className='row'>
         {loading ? (
-          <p>Loading...</p>
+          <p className='text-white'>Loading...</p>
         ) : (
           filteredPokemon.map((poke) => {
             return <div className='map-container col-md-4 ' key={poke.id}>
